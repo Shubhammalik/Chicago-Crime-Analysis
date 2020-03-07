@@ -30,6 +30,7 @@ Goal for this project is to analyze chicago crime data from 2001-2018.
     `spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 app.py`
     
 # Illustration from Webapp
+
 ![Interactive tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_interactive_tab.png)
 
 ![Forecast tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_forecast_tab.png)
