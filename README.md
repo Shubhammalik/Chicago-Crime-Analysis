@@ -4,7 +4,7 @@ Goal for this project is to analyze chicago crime data from 2001-2018.
 
 Dataset - https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
 
-This dataset contained records from 2001 - 2018. Size - 1.6GB data (6.6M unique records).
+This dataset contains crime records from 2001 - 2018. Size - 1.6GB data (6.6M unique records).
 
 # Coverage and Modules insights
 1) ETL (Cleaning and Filtering) and Data operations (child tables creation and write to Cassandra DB).
