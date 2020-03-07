@@ -30,3 +30,8 @@ This dataset contained records from 2001 - 2018. Size - 1.6GB data (6.6M unique 
 # Illustration from Webapp
 ![Interactive tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_interactive_tab.png)
 
+![Forecast tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_forecast_tab.png)
+
+![Static tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_static_tab.png)
+
+![Word cloud tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_wordcloud_tab.png)
