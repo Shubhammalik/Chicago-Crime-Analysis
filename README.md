@@ -23,9 +23,10 @@ This dataset contains crime records from 2001 - 2018. Size - 1.6GB data (6.6M un
 6) Webapp - Dash, Flask
 
 # Running Instructions and Details
-1) Details and findings of the project can be found in the report
-2) Running instructions can be found inside RUNNING.md
-3) For running application, go to the directory where app.py is present and run the below command:
+1) Details and findings of the project can be found in the report (https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/Chicago_Crime_Analysis_Report.pdf)
+2) Running instructions can be found inside RUNNING.md (https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/RUNNING.md)
+3) For running application, go to the directory where app.py (https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/app.py) is present and run the below command:
+
     `spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 app.py`
     
 # Illustration from Webapp
