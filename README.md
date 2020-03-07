@@ -2,9 +2,7 @@
 
 Goal for this project is to analyze chicago crime data from 2001-2018.
 
-Dataset - https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
-
-This dataset contains crime records from 2001 - 2018. Size - 1.6GB data (6.6M unique records).
+[Dataset](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) contains crime records from 2001 - 2018. Size - 1.6GB data (6.6M unique records).
 
 # Coverage and Modules insights
 1) ETL (Cleaning and Filtering) and Data operations (child tables creation and write to Cassandra DB).
@@ -24,6 +22,8 @@ This dataset contains crime records from 2001 - 2018. Size - 1.6GB data (6.6M un
 
 # Running Instructions and Details
 1) Details and findings of the project can be found in the [report](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/Chicago_Crime_Analysis_Report.pdf)
+2) Install the required libraries listed in [requirement.txt](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/requirements.txt)
+3) Download the datastet from the chicago PD website [link](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 2) Running instructions can be found inside [RUNNING.md](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/RUNNING.md)
 3) For running application, go to the directory where [app.py](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/app.py) is present and run the below command:
 
