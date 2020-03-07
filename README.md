@@ -31,13 +31,13 @@ Goal for this project is to analyze chicago crime data from 2001-2018.
     
 # Illustration from Webapp
 **Interactive tab**
-![Interactive tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_interactive_tab.png)
+![Interactive tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/static/images/webapp_interactive_tab.png)
 
 **Crime Forecasting**
-![Forecast tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_forecast_tab.png)
+![Forecast tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/static/images/webapp_forecast_tab.png)
 
 **Static Visualizations**
-![Static tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_static_tab.png)
+![Static tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/static/images/webapp_static_tab.png)
 
 **Word clouds**
-![Word cloud tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_wordcloud_tab.png)
+![Word cloud tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/static/images/webapp_wordcloud_tab.png)
