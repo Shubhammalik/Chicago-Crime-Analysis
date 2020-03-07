@@ -1,46 +1,32 @@
-## Crime Dataset Analysis- City of Chicago (2001-2018)
+# Chicago Crime Analysis - Big Data
 
-Our goal for this project is to analyze chicago crime data from 2001-2018 and use interactive and static plots to analyse and understand the patterns in the crime. We also used crime forecasting to predict crime rate for the next one year and examine crime rate trends over the years, word-cloud to understand major occurring crimes and the most affected location type and geo Maps for plotting crime density of each crime on geo maps.
+Goal for this project is to analyze chicago crime data from 2001-2018.
 
+Dataset - https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+This dataset contained records from 2001 - 2018. Size - 1.6GB data (6.6M unique records).
 
-Illustrations from Webapp - 
+# Coverage and Modules insights
+1) ETL (Cleaning and Filtering) and Data operations (child tables creation and write to Cassandra DB).
+2) Interactive visualizations for Hourly, Monthly and Yearly Crime Analysis (Line Charts and GEO maps).
+3) Wordcloud implementation for most occuring crime type and crime location.
+4) Time series Forecasting of crime for 2019.
+5) Static visualizations for crime severity, Successful arrests (area-wise).
+6) Predctive analysis of severity of crime based on arrest and crime type.
 
-https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_interactive_tab.png
+# Tech Stack
+1) Data Cleaning & Filtering - Spark Dataframes and Spark SQL functions
+2) Data Manipulation - Spark, Cassandra, Python, Pandas
+3) Data Visualization - Plotly, Seaborn, Matplotlib, word cloud, Dash
+4) Data Storage - Cassandra db
+5) Forecasting - FBprophet
+6) Webapp - Dash, Flask
 
-https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_forecast_tab.png
-
-https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_static_tab.png
-
-https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/webapp_wordcloud_tab.png
-
-**Extensive work has be done on** : ETL, Visualizations, Algorithmic Modules (Severity, Arrest, Forecasting)
-
-
-Contributors:
-
-    Shubham Malik
-    Rohan Harode
-    Akash Singh Kunwar
-    
-    
-
-
-We have used the following Tech:
-
-	1. Cassandra for NOSQL database management query`
-	2. Dash Plotly for interactive analytics dashboard
-	3. Plotly, Seaborn and matplotlib for static graphs
-	4. Flask for backend 
-	5. FB Prophet for forecasting
-
-Dataset:
-Dataset is available in the chicago data portal:
-    `https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2`
-
-
-The project is done as a part of SFU CMPT 732 Big Data coursework
-
-   1. Details of the project can be found at submitted report
-   2. Running instructions can be found inside RUNNING.md
-   3. For running application, go to the directory where app.py is present and run the below command:
+# Running Instructions and Details
+1) Details and findings of the project can be found in the report
+2) Running instructions can be found inside RUNNING.md
+3) For running application, go to the directory where app.py is present and run the below command:
     `spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 app.py`
+    
+# Illustration from Webapp
+
+
