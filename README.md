@@ -21,4 +21,11 @@ This dataset contained records from 2001 - 2019. Size - 1.6GB data (6.6M unique 
 5) Forecasting - FBprophet
 6) Webapp - Dash, Flask
 
+# Running Instructions and details
+The project is done as a part of SFU CMPT 732 Big Data coursework
+1) Details of the project can be found in the report
+2) Running instructions can be found inside RUNNING.md
+3) For running application, go to the directory where app.py is present and run the below command:
+    `spark-submit --packages datastax:spark-cassandra-connector:2.4.0-s_2.11 app.py`
+
 # Illustrations from the web application
