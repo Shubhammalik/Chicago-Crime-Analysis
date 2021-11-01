@@ -30,5 +30,4 @@
 
 3. After running app.py for the first time, comment the above codes. To run app.py next time, simply type the spark-submit command.
 
-
-
+Good to GO! :)
