@@ -41,3 +41,4 @@ Goal for this project is to analyze chicago crime data from 2001-2018.
 
 **Word clouds**
 ![Word cloud tab](https://github.com/Shubhammalik/Chicago-Crime-Analysis/blob/master/static/images/webapp_wordcloud_tab.png)
+
